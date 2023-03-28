@@ -1,36 +1,36 @@
 * { }
 html { scroll-behavior: smooth; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
-
 :root {}
-
-.nav { display: flex; background-color: darkolivegreen; border: darkslategray; border-radius: 89%;
-}
-
+body { margin:0%; padding: 0%;}
 .nav-list { display: flex; justify-content: flex-end; }
-
 .services { border-bottom: double;}
-
 .header {
    
     text-align: center; /* center the text */
-    background: ; 
-    color: rgb(16, 139, 170); 
-    font-size: 18px;
-    height: 25px; margin: 0%; padding: 0%;}
+    background: rgba(24, 23, 23, 0.815); 
+    color: rgb(69, 163, 187); 
+    font-size: 16px; font-family: cursive; font-weight: 400;
+    height: 26px; margin: 0%; padding: 0%; top: 0%; z-index: 1;}
+
+.nav { border: 2px double rgb(12, 11, 10); background-color: rgb(177, 180, 125); height: 78px;}
+
+/* .nav, .header { position: fixed; width: 100%; } */
+
+li { display: block;}
 
 .navbar {
         overflow: hidden; /* Hide overflow */
         background-color: #333; /* Dark background color */
+        display: inline; z-index: 2;
       }
       
       
 .nav-list {
-        float: left; /* Make sure that the links stay side-by-side */
-        display: block; /* Change the display to block, for responsive reasons (see below) */
-        color: white; /* White text color */
-        text-align: center; /* Center the text */
-        padding: 14px 20px; /* Add some padding */
-        text-decoration: none; /* Remove underline */ }
+         /* Make sure that the links stay side-by-side */
+        display: flex; /* Change the display to block, for responsive reasons (see below) */
+        color: rgba(255, 255, 255, 0.068); /* White text color */
+        justify-content: flex-end ; top: 0%; margin: 0; padding: 0; 
+        text-decoration: dotted; }
       
     
 .nav-title {
