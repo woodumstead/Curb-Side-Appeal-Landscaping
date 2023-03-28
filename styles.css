@@ -1,0 +1,45 @@
+* { }
+html { scroll-behavior: smooth; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+
+:root {}
+
+.nav { display: flex; background-color: darkolivegreen; border: darkslategray; border-radius: 89%;
+}
+
+.nav-list { display: flex; justify-content: flex-end; }
+
+.services { border-bottom: double;}
+
+.header {
+   
+    text-align: center; /* center the text */
+    background: ; 
+    color: rgb(16, 139, 170); 
+    font-size: 18px;
+    height: 25px; margin: 0%; padding: 0%;}
+
+.navbar {
+        overflow: hidden; /* Hide overflow */
+        background-color: #333; /* Dark background color */
+      }
+      
+      
+.nav-list {
+        float: left; /* Make sure that the links stay side-by-side */
+        display: block; /* Change the display to block, for responsive reasons (see below) */
+        color: white; /* White text color */
+        text-align: center; /* Center the text */
+        padding: 14px 20px; /* Add some padding */
+        text-decoration: none; /* Remove underline */ }
+      
+    
+.nav-title {
+        float: right; }
+      
+      /* Change color on hover/mouse-over */
+.navbar a:hover {
+        background-color: #ddd; /* Grey background color */
+        color: black; /* Black text color */ }
+@media only screen and (max-width: 480px) {
+        html {
+          font-size: 100%; } }
