@@ -1,5 +1,5 @@
 * { }
-html { scroll-behavior: smooth; font-family: monospace;}
+html { scroll-behavior: smooth; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
 :root {}
 body { margin:0%; padding: 0%;}
 .nav-list { display: flex; justify-content: flex-end; }
@@ -7,16 +7,27 @@ body { margin:0%; padding: 0%;}
 .header {
    
     text-align: center; /* center the text */
-    background: rgba(223, 222, 222, 0.815); 
-    color: rgb(83, 219, 83); 
-    font-size: 16px; font-family: 'Courier New', Courier, monospace; font-weight: bold;
-    height: 26px; margin: 0%; padding: 0%; top: 0%; z-index: 1;}
+    background: rgba(24, 23, 23, 0.815); 
+    color: rgb(69, 163, 187); 
+    font-size: 16px; font-family: cursive; font-weight: 400;
+    height: 26px; margin: 0%; padding-bottom: 0%; top: 0%; z-index: 1;
+    
 
-.nav { border: 2px double rgb(12, 11, 10); background-color: rgb(177, 180, 125); height: 78px;}
+
+        }
+
+.nav { border: 2px double rgb(12, 11, 10); background-color: rgb(177, 180, 125); height: 78px;
+        position: fixed;
+        top: 30px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        overflow: hidden;
+        padding-top: 0; z-index: -1;}
 
 /* .nav, .header { position: fixed; width: 100%; } */
 
-li { display: block; margin: 1.5rem; padding: 1.5rem; }
+li { display: block;}
 
 .navbar {
         overflow: hidden; /* Hide overflow */
@@ -30,11 +41,11 @@ li { display: block; margin: 1.5rem; padding: 1.5rem; }
         display: flex; /* Change the display to block, for responsive reasons (see below) */
         color: rgba(255, 255, 255, 0.068); /* White text color */
         justify-content: flex-end ; top: 0%; margin: 0; padding: 0; 
-        text-decoration: dotted; align-items: center; }
+        text-decoration: dotted; }
       
     
 .nav-title {
-        margin: 0; padding: 0; bottom: 5%; top: 5%; left: 15%;}
+        float: right; }
       
       /* Change color on hover/mouse-over */
 .navbar a:hover {
